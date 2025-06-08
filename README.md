@@ -20,30 +20,34 @@ A hands-on collection of Python scripts and Jupyter notebooks for exploring core
 7. [Contact](#contact)  
 
 ---
+## 📁 Repository Structure
+<details> 
+<summary>📂 Repository Structure</summary>
 
-## 🗂 Repository Structure
-AI-Learning/  
-├── Advanced ML Algorithms/  
-│   ├── bagging_random_forest.py  
-│   └── intro_to_ensemble.py  
-├── datasets/  
-│   └── bike_sharing_daily.csv  
-├── Feature Engineering and Model Evaluation/  
-│   ├── data_scaling_and_normalisation.py  
-│   ├── encoding_categorical.py  
-│   ├── feature_creation.py  
-│   ├── feature_selection_techniques.py  
-│   ├── hyperparameter_tuning.py  
-│   └── intro_feature_engineering.py  
-├── Introduction to ML/  
-│   ├── classification_logregr.py  
-│   ├── k-NN_algorithm.py  
-│   ├── linear_regression.py  
-│   ├── model_eval_metrics.py  
-│   ├── polynomial_regression.py  
-│   └── supervised_learning.py  
-├── Mathematics for machine learning/  
-│   ├── advanced_linear_alg.py  
-│   └── calculus_ml.py  
-└── README.md  
-
+```
+AI-Learning/
+├── Advanced ML Algorithms/
+│ ├── bagging_random_forest.py
+│ └── intro_to_ensemble.py
+├── datasets/
+│ └── bike_sharing_daily.csv
+├── Feature Engineering and Model Evaluation/
+│ ├── data_scaling_and_normalisation.py
+│ ├── encoding_categorical.py
+│ ├── feature_creation.py
+│ ├── feature_selection_techniques.py
+│ ├── hyperparameter_tuning.py
+│ └── intro_feature_engineering.py
+├── Introduction to ML/
+│ ├── classification_logregr.py
+│ ├── k-NN_algorithm.py
+│ ├── linear_regression.py
+│ ├── model_eval_metrics.py
+│ ├── polynomial_regression.py
+│ └── supervised_learning.py
+├── Mathematics for machine learning/
+│ ├── advanced_linear_alg.py
+│ └── calculus_ml.py
+└── README.md 
+```
+</details>
