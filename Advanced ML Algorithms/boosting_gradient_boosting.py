@@ -1,6 +1,3 @@
-# git add boosting_gradient_boosting.py
-# git commit -m "Boosting and Gradient Boosting"
-# git push
 """
 boosting - ensemble technique that sequentially combines weak learners to form a strong learner
 each model tries to correct errors made by previous models
