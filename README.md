@@ -23,16 +23,16 @@ A hands-on collection of Python scripts and Jupyter notebooks for exploring core
 ## 📂 Repository Structure
 
 <details>
-<summary>📂 Repository Structure</summary>
+<summary>Explore the folder structure of AI Learning</summary>
 
-```
+```text
 AI-Learning/
 ├── Advanced ML Algorithms/
-│ ├── bagging_random_forest.py
-│ └── intro_to_ensemble.py
+│   ├── bagging_random_forest.py
+│   └── intro_to_ensemble.py
 ├── datasets/
-│ └── bike_sharing_daily.csv
-├── Feature Engineering & Model Evaluation/
+│   └── bike_sharing_daily.csv
+├── Feature Engineering and Model Evaluation/
 │   ├── data_scaling_and_normalisation.py
 │   ├── encoding_categorical.py
 │   ├── feature_creation.py
@@ -46,9 +46,7 @@ AI-Learning/
 │   ├── model_eval_metrics.py
 │   ├── polynomial_regression.py
 │   └── supervised_learning.py
-├── Mathematics for ML/
+├── Mathematics for machine learning/
 │   ├── advanced_linear_alg.py
 │   └── calculus_ml.py
 └── README.md
-```
-</details>
