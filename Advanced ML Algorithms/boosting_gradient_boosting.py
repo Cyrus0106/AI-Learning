@@ -68,3 +68,4 @@ y_pred_rf = rf_model.predict(X_test)
 # evaluate performance
 accuracy_rf = accuracy_score(y_test, y_pred_rf)
 print("Random forest accuracy", {accuracy_rf})
+
