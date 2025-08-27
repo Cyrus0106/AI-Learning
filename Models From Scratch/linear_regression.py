@@ -38,6 +38,7 @@ class LinearRegressionGD:
         self.n_iter = n_iter
         self.coef = None
         self.intercept_ = 0
+        self.costs = []
 
     def fit(self, X, y):
         X = np.array(X)
@@ -46,11 +47,14 @@ class LinearRegressionGD:
         # initialise weights
         self.coef_ = np.zeros(n_features)
         self.intercept_ = 0
+        self.costs = []
 
         # Gradient Descent
         for _ in range(self.n_iter):
             y_pred = X @ self.coef_ + self.intercept_
             error = y_pred - y
+            cost = (1/2*n_samples) * np.sum(error**2)
+            self.costs.append(cost)
             # gradients
             dw = (2 / n_samples) * (X.T @ error)
             db = (2/n_samples) * np.sum(error)
@@ -61,3 +65,6 @@ class LinearRegressionGD:
 
     def predict(self, X):
         return np.array(X) @ self.coef_ + self.intercept_
+    
+    def get_cost_history(self):
+        return self.costs
