@@ -56,8 +56,8 @@ class LinearRegressionGD:
             cost = (1/2*n_samples) * np.sum(error**2)
             self.costs.append(cost)
             # gradients
-            dw = (2 / n_samples) * (X.T @ error)
-            db = (2/n_samples) * np.sum(error)
+            dw = -(2 / n_samples) * (X.T @ error)
+            db = -(2/n_samples) * np.sum(error)
 
             # update weights
             self.coef_ -= self.lr * dw
